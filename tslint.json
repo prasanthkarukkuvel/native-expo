@@ -1,0 +1,149 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:latest"],
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "no-submodule-imports": false,
+    "no-object-literal-type-assertion": false,
+    "linebreak-style": false,
+    "no-invalid-template-strings": true,
+    "ban-types": false,
+    "adjacent-overload-signatures": true,
+    "align": [true, "parameters", "statements"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "ban": false,
+    "block-spacing": [true, "always"],
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "class-name": true,
+    "comment-format": [true, "check-space", "check-lowercase"],
+    "curly": true,
+    "eofline": true,
+    "forin": true,
+    "handle-callback-err": [true, "err"],
+    "indent": [true, "spaces"],
+    "interface-name": true,
+    "jsdoc-format": true,
+    "label-position": true,
+    "max-classes-per-file": 2,
+    "max-line-length": [false, 140],
+    "member-access": true,
+    "member-ordering": [
+      true,
+      "public-before-private",
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "new-parens": true,
+    "no-empty-interface": false,
+    "no-angle-bracket-type-assertion": true,
+    "no-any": false,
+    "no-unsafe-any": false,
+    "no-arg": true,
+    "no-bitwise": false,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": true,
+    "no-console": [true, "log", "info"],
+    "no-constant-condition": true,
+    "no-construct": true,
+    "no-control-regex": true,
+    "no-debugger": true,
+    "no-default-export": true,
+    "no-duplicate-case": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-empty-character-class": true,
+    "no-eval": true,
+    "no-ex-assign": true,
+    "no-extra-boolean-cast": true,
+    "no-extra-semi": true,
+    "no-inferrable-types": false,
+    "no-inner-declarations": [true, "both"],
+    "no-internal-module": true,
+    "no-invalid-regexp": true,
+    "no-irregular-whitespace": true,
+    "no-namespace": false,
+    "no-reference": true,
+    "no-regex-spaces": true,
+    "no-require-imports": false,
+    "no-shadowed-variable": true,
+    "no-string-literal": false,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
+    "no-unexpected-multiline": true,
+    "no-unused-expression": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "object-curly-spacing": [true, "always"],
+    "object-literal-key-quotes": false,
+    "object-literal-shorthand": true,
+    "object-literal-sort-keys": false,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-whitespace"
+    ],
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
+    "only-arrow-functions": [true, "allow-declarations"],
+    "ordered-imports": true,
+    "quotemark": [false, "double", "avoid-escape"],
+    "radix": true,
+    "semicolon": true,
+    "switch-default": true,
+    "trailing-comma": [
+      false,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "triple-equals": [true, "allow-null-check"],
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "use-isnan": true,
+    "valid-jsdoc": true,
+    "valid-typeof": true,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "ban-keywords"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ]
+  },
+  "rulesDirectory": "node_modules/tslint-eslint-rules/dist/rules"
+}
